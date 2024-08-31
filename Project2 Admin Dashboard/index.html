@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="/svg/dashboard.svg">
+    <title>Πίνακας Ελέγχου Φοιτητή</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="page-container">
+        <div id="main-sidebar-wrapper">
+                <div id="sidebar-sticky">
+                    <div id="sidebar-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="3" y1="9" x2="21" y2="9"/>
+                            <line x1="9" y1="21" x2="9" y2="9"/>
+                        </svg>
+                        <h1>Πίνακας Ελέγχου Φοιτητή</h1>
+                    </div>
+                    <nav id="sidebar-nav">
+                        <ul>
+                            <li><a href="#">Αρχική</a></li>
+                            <li><a href="#">Μηνύματα</a></li>
+                            <li><a href="#">Μαθήματα</a></li>
+                            <li><a href="#">Εργασίες</a></li>
+                            <li><a href="#">Κοινότητες</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Απόρρητο</a></li>
+                            <li><a href="#">Αποσύνδεση</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+        
+        <div id="header-wrapper">
+            <div id="user-profile-area-wrapper">
+                <nav id="user-nav">
+                    <div id="buttons-wrapper">
+                        <button type="button">Προφίλ</button>
+                        <button type="button">Ρυθμίσεις</button>
+                        <button type="button">Υποστήριξη</button>
+                    </div>
+                </nav>
+                <div id="user-controls-profile">
+                    <input type="search" name="user_search" id="user_search" placeholder="Αναζήτηση...">
+                    <span></span>
+                    <h2 >Καλώς Ήρθες, <span id="user-name">Niko</span></h2>
+
+                    <div id="user-controls-profile-img">
+                        <img src="./images/user-profile-pic.png" alt="Εικόνα Προφίλ">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="notifications-wrapper">
+                <h2 class="section-title">Ειδοποιήσεις</h2>
+                <div id="notification-elements-wrapper" class="scroll">
+                    <div class="notification">Νέα εργασία προστέθηκε</div>
+                    <div class="notification">Το μάθημα ακυρώθηκε</div>
+                    <div class="notification">Αλλαγή στην ώρα του μαθήματος</div>
+                    <div class="notification">Ανακοίνωση καθηγητή</div>
+                    <div class="notification">Νέα εργασία προστέθηκε</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main-content-section-wrapper">
+            <h2 class="section-title">Μαθήματα</h2>
+            <div id="classes" class="main-content">
+                <div class="class-box">
+                    
+                    <p>Φιλοσοφία</p>
+                </div>
+                <div class="class-box">
+                    <p>Μαθηματικά</p>
+                </div>
+                <div class="class-box">
+                    <p>Ιστορία</p>
+                </div>
+                <div class="class-box">
+                    <p>Φυσική</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">Εργασίες</h2>
+            <div id="todo" class="main-content">
+                <div class="todo-box">
+                    <h3>Δοκίμιο για τον Πλάτωνα</h3>
+                    <p>Προθεσμία: 1/9</p>
+                    <p>Μάθημα: Φιλοσοφία</p>
+                    
+                    <div class="todo-buttons">
+                        <button type="button">Υποβολή</button>
+                        <button type="button">Λεπτομέρειες</button>
+                    </div>
+                </div>
+                <div class="todo-box">
+                    <h3>Ασκήσεις Λογισμού</h3>
+                    <p>Προθεσμία: 2/9</p>
+                    <p>Μάθημα: Μαθηματικά</p>
+                    
+                    <div class="todo-buttons">
+                        <button type="button">Υποβολή</button>
+                        <button type="button">Λεπτομέρειες</button>
+                    </div>
+                </div>
+                <div class="todo-box">
+                    <h3>Εξέταση Ιστορίας</h3>
+                    <p>Προθεσμία: 4/9</p>
+                    <p>Μάθημα: Ιστορία</p>
+                    
+                    <div class="todo-buttons">
+                        <button type="button">Υποβολή</button>
+                        <button type="button">Λεπτομέρειες</button>
+                    </div>
+                </div>
+                <div class="todo-box">
+                    <h3>Πείραμα Μηχανικής</h3>
+                    <p>Προθεσμία: 5/9</p>
+                    <p>Μάθημα: Φυσική</p>
+                    
+                    <div class="todo-buttons">
+                        <button type="button">Υποβολή</button>
+                        <button type="button">Λεπτομέρειες</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="right-sidebars-wrapper">
+            <h2 class="section-title">Ανακοινώσεις</h2>
+            <div id="Announcement-wrapper" class="right-sidebar">
+                <div class="announcement">
+                    <h3>Δωρεάν καφές στις Δευτέρες</h3>
+                    <p>Κάθε Δευτέρα προσφέρουμε δωρεάν καφέ στη λέσχη.</p>
+                </div>
+                <div class="announcement">
+                    <h3>Αλλαγή αίθουσας 203 σε 305</h3>
+                    <p>Η αίθουσα 203 είναι κλειστή. Παρακαλώ μεταφερθείτε στην αίθουσα 305.</p>
+                </div>
+                <div class="announcement">
+                    <h3>Ακυρώνονται τα μαθήματα λόγω καιρού</h3>
+                    <p>Τα μαθήματα την Παρασκευή ακυρώνονται λόγω καιρού.</p>
+                </div>
+            </div>
+            <h2 class="section-title">Τάσεις</h2>
+            <div id="Trending-wrapper" class="right-sidebar">
+                <div class="trending-hashtags">
+                    <ul>
+                        <li>#Φιλοσοφία</li>
+                        <li>#Προκλήσεις</li>
+                        <li>#Εξετάσεις</li>
+                        <li>#Μαθήματα</li>
+                        <li>#ΦοιτητικήΖωή</li>
+                        <li>#Καφετέρια</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
