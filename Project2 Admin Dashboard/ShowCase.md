@@ -1,1 +1,1 @@
-![Στιγμιότυπο οθόνης (667)](https://github.com/user-attachments/assets/ec069e2d-6362-4018-bfeb-cccee9ea8ee1)
+![Στιγμιότυπο οθόνης (667)](https://github.com/user-attachments/assets/6d713614-eeac-4f22-b4b0-06acdcf60480)
