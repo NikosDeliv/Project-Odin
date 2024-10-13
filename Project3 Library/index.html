@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Odin Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- add books user input -->
+            <button id="newBook">
+                New Book
+            </button>
+            <!-- to make the book appear -->
+            <ul>
+                <!-- <li>text <div class="checkbox-container"><button>delete</button>
+                        <input
+                            type="checkbox" /></div> </li> -->
+            </ul>
+
+        </div>
+        <!-- modal -->
+        <div id="overlay" class="overlay hidden">
+            <div id="modal" class="modal hidden">
+                <div class="row">
+                    <span>ADD NEW BOOK</span>
+                    <button id="closeModal">
+                        X
+                    </button>
+                </div>
+
+                <form>
+                    <div class="input-container">
+                        <span>Book Title</span>
+                        <input class="text" type="text" name="title"
+                            placeholder="Book Title" />
+                    </div>
+                    <div class="input-container">
+                        <span>Author</span>
+                        <input class="text" type="text" name="author"
+                            placeholder="Author of the book" />
+                    </div>
+                    <div class="input-container">
+                        <span>Pages</span>
+                        <input class="numbers" type="number" name="pages"
+                            placeholder="How many pages" />
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="readed" />
+                        <span>Have you read this book ?</span>
+                    </div>
+                    <button type="submit">Add Book</button>
+
+                </form>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
